@@ -36,7 +36,7 @@ end
 
 #Switch case
 
-print 'Check your age classification:'
+print '3-Conditional Exercise:Check your age classification:'
 c = gets.chomp.to_i
 
 case c
@@ -55,3 +55,13 @@ when 111..123123123823
 else 
     puts "that is not a valid age"                            
 end
+
+puts Z
+
+
+#Ternary operation
+puts "4-Conditional Exercise:"
+puts "use M for male and F for female:"
+sex = gets.chomp
+
+puts(sex === "M" ? "You are a male" : "you are a Female")
