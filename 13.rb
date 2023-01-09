@@ -30,6 +30,8 @@ p2.cpf = 2345678
 puts p2.name = "Lucas"
 puts p2.email = "Lucas@email.com"
 puts p2.cpf = 2345678
+puts "--------------"
+
 
 p3 = CompanyPerson.new
 p3.name = "Kiro"
@@ -39,3 +41,4 @@ p3.cnpj = 23232323
 puts p3.name = "Kiro"    
 puts p3.email = "Kiro@email.com"
 puts p3.cnpj = 23232323
+puts "--------------"
